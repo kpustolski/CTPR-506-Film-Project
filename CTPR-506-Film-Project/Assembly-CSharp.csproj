@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Downloads\Clock\Scripts\Clock.cs" />
      <Compile Include="Assets\Scripts\ChangeSceneOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\EnableCameraSaturation.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
      <Compile Include="Assets\Scripts\TweenObject.cs" />
      <Compile Include="Assets\Scripts\TweenOnTrigger.cs" />
