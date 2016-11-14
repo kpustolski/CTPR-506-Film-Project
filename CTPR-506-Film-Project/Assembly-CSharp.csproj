@@ -46,9 +46,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Downloads\Clock\Scripts\Clock.cs" />
+     <Compile Include="Assets\Scripts\AudienceScript.cs" />
+     <Compile Include="Assets\Scripts\ChangeElevatorNumber.cs" />
      <Compile Include="Assets\Scripts\ChangeSceneOnTrigger.cs" />
+     <Compile Include="Assets\Scripts\ChangeSpriteOnTrigger.cs" />
      <Compile Include="Assets\Scripts\EnableCameraSaturation.cs" />
      <Compile Include="Assets\Scripts\Manager.cs" />
+     <Compile Include="Assets\Scripts\OpenCloseElevatorDoors.cs" />
+     <Compile Include="Assets\Scripts\SwingDoorOnTrigger.cs" />
      <Compile Include="Assets\Scripts\TweenObject.cs" />
      <Compile Include="Assets\Scripts\TweenOnTrigger.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
@@ -84,6 +89,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
      <None Include="Assets\Shader\Double Sided Shaders Complete\Double Sided Emissive Diffuse Bump.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Downloads\Party Pack\Sounds\Sounds License.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\Shader\Double Sided Shaders Complete\Double Sided Emissive Transparent Diffuse.shader" />
      <None Include="Assets\Shader\Double Sided Shaders Complete\Double Sided Emissive Transparent Diffuse Bump Cutout.shader" />
