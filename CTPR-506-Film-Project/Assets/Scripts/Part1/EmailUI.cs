@@ -37,4 +37,10 @@ public class EmailUI : MonoBehaviour {
 			content.gameObject.SetActive (false);
 		emailContent [i].gameObject.SetActive (true);
 	}
+
+	public void Close()
+	{
+
+		email.SetActive (false);
+	}
 }

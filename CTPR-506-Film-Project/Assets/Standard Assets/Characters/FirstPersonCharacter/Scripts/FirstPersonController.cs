@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
+using DG.Tweening;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -81,6 +82,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+
         }
 
 
