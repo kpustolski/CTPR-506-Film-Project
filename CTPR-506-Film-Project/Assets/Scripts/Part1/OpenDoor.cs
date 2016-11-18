@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using DG.Tweening;
 
 public class OpenDoor : MonoBehaviour {
 
@@ -8,7 +9,8 @@ public class OpenDoor : MonoBehaviour {
 	void Update()
 	{
 		if (Input.GetKeyDown (key)) {
-			
+			transform.DORotate (new Vector3 (0, 90f, 0), 2f);
+			openSound.Play ();
 		}
 	}
 }
