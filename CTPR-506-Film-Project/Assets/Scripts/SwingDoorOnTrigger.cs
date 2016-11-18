@@ -8,9 +8,13 @@ public class SwingDoorOnTrigger : MonoBehaviour {
 	public Transform to;
 	public float speed = 4F;
 	private bool doOnce=false;
+
+	public AudioClip sfx;
+	public float volume = 0.9f;
+	private AudioSource audioSrc;
 	// Use this for initialization
 	void Start () {
-
+		audioSrc = GetComponent<AudioSource> ();
 	}
 
 	// Update is called once per frame
@@ -28,7 +32,9 @@ public class SwingDoorOnTrigger : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 
 		if (!doOnce) {
-			Debug.Log ("rotate");
+			if (sfx != null) {
+				audioSrc.PlayOneShot (sfx, volume);
+			}
 			door.GetComponent<Transform>().localRotation = Quaternion.Slerp(from.rotation, to.rotation, Time.time * speed);
 			doOnce = true;
 		}
